@@ -1,6 +1,11 @@
-/home/adeliocastro/IdeaProjects/api/src/main/java/com/pti/api/controller/HelloController.java
-/home/adeliocastro/IdeaProjects/api/src/main/java/com/pti/api/medico/DadosCadastroMedico.java
-/home/adeliocastro/IdeaProjects/api/src/main/java/com/pti/api/ApiApplication.java
-/home/adeliocastro/IdeaProjects/api/src/main/java/com/pti/api/controller/MedicoController.java
-/home/adeliocastro/IdeaProjects/api/src/main/java/com/pti/api/endereco/DadosEndereco.java
-/home/adeliocastro/IdeaProjects/api/src/main/java/com/pti/api/enums/Especialidade.java
+/home/adeliocastro/projetos_cursos/api-Voll-Med/src/main/java/com/pti/api/medico/Medico.java
+/home/adeliocastro/projetos_cursos/api-Voll-Med/src/main/java/com/pti/api/controller/PacienteController.java
+/home/adeliocastro/projetos_cursos/api-Voll-Med/src/main/java/com/pti/api/enums/Especialidade.java
+/home/adeliocastro/projetos_cursos/api-Voll-Med/src/main/java/com/pti/api/ApiApplication.java
+/home/adeliocastro/projetos_cursos/api-Voll-Med/src/main/java/com/pti/api/controller/HelloController.java
+/home/adeliocastro/projetos_cursos/api-Voll-Med/src/main/java/com/pti/api/endereco/DadosEndereco.java
+/home/adeliocastro/projetos_cursos/api-Voll-Med/src/main/java/com/pti/api/endereco/Endereco.java
+/home/adeliocastro/projetos_cursos/api-Voll-Med/src/main/java/com/pti/api/medico/DadosCadastroMedico.java
+/home/adeliocastro/projetos_cursos/api-Voll-Med/src/main/java/com/pti/api/repository/MedicoRepository.java
+/home/adeliocastro/projetos_cursos/api-Voll-Med/src/main/java/com/pti/api/controller/MedicoController.java
+/home/adeliocastro/projetos_cursos/api-Voll-Med/src/main/java/com/pti/api/controller/DadosCadastroPaciente.java
