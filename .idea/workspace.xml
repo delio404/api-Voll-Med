@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e35af952-0ae8-46d7-9da6-d8caffbb4e90" name="Changes" comment="Testando a listagem">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/1/41489c8493f2c009cafb1107eb61430791d956f2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+    <list default="true" id="e35af952-0ae8-46d7-9da6-d8caffbb4e90" name="Changes" comment="implementanto ordenaçao e show sql">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/pti/api/controller/MedicoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pti/api/controller/MedicoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/pti/api/controller/MedicoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pti/api/controller/MedicoController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -203,7 +203,7 @@
       <workItem from="1669402095102" duration="2560000" />
       <workItem from="1669634321973" duration="440000" />
       <workItem from="1670354671950" duration="1027000" />
-      <workItem from="1673464884012" duration="318000" />
+      <workItem from="1673464884012" duration="2209000" />
     </task>
     <task id="LOCAL-00001" summary="add project">
       <created>1669290959938</created>
@@ -226,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673298176995</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="criando paginacao">
+      <created>1673465500368</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1673465500368</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,6 +254,8 @@
     <MESSAGE value="add project" />
     <MESSAGE value="Producao de dados na API" />
     <MESSAGE value="Testando a listagem" />
-    <option name="LAST_COMMIT_MESSAGE" value="Testando a listagem" />
+    <MESSAGE value="criando paginacao" />
+    <MESSAGE value="implementanto ordenaçao e show sql" />
+    <option name="LAST_COMMIT_MESSAGE" value="implementanto ordenaçao e show sql" />
   </component>
 </project>
