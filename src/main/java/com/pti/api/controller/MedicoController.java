@@ -33,4 +33,10 @@ public class MedicoController {
         return repository.findAll(paginacao).map(DadosListagemMedico::new);
     }
 
+    @Transactional
+    @PutMapping("/{id}")
+    public void atualizar(@RequestBody @Valid){
+
+    }
+
 }
