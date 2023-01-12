@@ -23,10 +23,6 @@ i
 9src/main/java/com/pti/api/medico/DadosCadastroMedico.java,1/d/1dab4789b7a488758c16892b4abbe709badce078
 e
 5src/main/java/com/pti/api/endereco/DadosEndereco.java,6/7/6764549f929bbdcbd5c10c78d597fb8afc033b1a
-7
-pom.xml,4/4/442292b8a7efeabbe4cc176709b833b1792140ec
-]
--src/main/java/com/pti/api/ApiApplication.java,6/e/6e43f2d2446deff7304470220b446a07ce4fd991
 ù
 m.idea/dataSources/078177b8-166e-4704-9bc8-544ee5ad0af3/storage_v2/_src_/schema/information_schema.FNRwLQ.meta,6/3/6377b876a408603bdf6542432e19ba1dd65fb35d
 j

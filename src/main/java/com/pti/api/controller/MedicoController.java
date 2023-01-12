@@ -1,5 +1,6 @@
 package com.pti.api.controller;
 
+import com.pti.api.medico.DadosAtualizaMedico;
 import com.pti.api.medico.DadosCadastroMedico;
 import com.pti.api.medico.DadosListagemMedico;
 import com.pti.api.medico.Medico;
@@ -34,8 +35,10 @@ public class MedicoController {
     }
 
     @Transactional
-    @PutMapping("/{id}")
-    public void atualizar(@RequestBody @Valid){
+    @PutMapping
+    public void atualizar(@RequestBody @Valid DadosAtualizaMedico dados) {
+        var medico= repository.getReferenceById(dados.id());
+        medico.atualizarInformacoes(dados);
 
     }
 
