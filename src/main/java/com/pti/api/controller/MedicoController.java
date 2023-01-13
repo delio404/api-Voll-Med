@@ -1,5 +1,6 @@
 package com.pti.api.controller;
 
+import com.pti.api.medico.DadosAtualizaMedico;
 import com.pti.api.medico.DadosCadastroMedico;
 import com.pti.api.medico.DadosListagemMedico;
 import com.pti.api.medico.Medico;
@@ -30,7 +31,22 @@ public class MedicoController {
     }
     @GetMapping
     public Page<DadosListagemMedico> listar(@PageableDefault(size=5, sort = {"nome"}) Pageable paginacao) {
-        return repository.findAll(paginacao).map(DadosListagemMedico::new);
+        return repository.findAllByAtivoTrue(paginacao).map(DadosListagemMedico::new);
     }
 
+    @Transactional
+    @PutMapping
+    public void atualizar(@RequestBody @Valid DadosAtualizaMedico dados) {
+        var medico= repository.getReferenceById(dados.id());
+        medico.atualizarInformacoes(dados);
+
+    }
+    @Transactional
+@DeleteMapping("/{id}")
+    public void excluir(@PathVariable Long id){
+        var medico= repository.getReferenceById(id);
+        medico.excluir();
+
+
+    }
 }

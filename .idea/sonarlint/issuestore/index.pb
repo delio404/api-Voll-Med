@@ -2,8 +2,6 @@
 i
 9src/main/java/com/pti/api/controller/HelloController.java,1/e/1e5cf11c0542a82cfc904872c38f0269b4bc57b3
 b
-2src/main/java/com/pti/api/enums/Especialidade.java,b/a/ba0b6eb6fa1a86dcc92de364cffff34fa8017029
-b
 2src/test/java/com/pti/api/ApiApplicationTests.java,2/9/29addc60375ba701a0546ed92447aeb78aa7cf98
 Ç
 Rtarget/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst,8/a/8ae396f369da14bb5c0973286facff8fb2c70d56
@@ -23,10 +21,6 @@ i
 9src/main/java/com/pti/api/medico/DadosCadastroMedico.java,1/d/1dab4789b7a488758c16892b4abbe709badce078
 e
 5src/main/java/com/pti/api/endereco/DadosEndereco.java,6/7/6764549f929bbdcbd5c10c78d597fb8afc033b1a
-7
-pom.xml,4/4/442292b8a7efeabbe4cc176709b833b1792140ec
-]
--src/main/java/com/pti/api/ApiApplication.java,6/e/6e43f2d2446deff7304470220b446a07ce4fd991
 ù
 m.idea/dataSources/078177b8-166e-4704-9bc8-544ee5ad0af3/storage_v2/_src_/schema/information_schema.FNRwLQ.meta,6/3/6377b876a408603bdf6542432e19ba1dd65fb35d
 j
