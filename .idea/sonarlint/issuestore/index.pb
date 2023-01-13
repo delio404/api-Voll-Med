@@ -2,8 +2,6 @@
 i
 9src/main/java/com/pti/api/controller/HelloController.java,1/e/1e5cf11c0542a82cfc904872c38f0269b4bc57b3
 b
-2src/main/java/com/pti/api/enums/Especialidade.java,b/a/ba0b6eb6fa1a86dcc92de364cffff34fa8017029
-b
 2src/test/java/com/pti/api/ApiApplicationTests.java,2/9/29addc60375ba701a0546ed92447aeb78aa7cf98
 ‚
 Rtarget/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst,8/a/8ae396f369da14bb5c0973286facff8fb2c70d56

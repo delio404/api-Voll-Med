@@ -4,9 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e35af952-0ae8-46d7-9da6-d8caffbb4e90" name="Changes" comment="Atualizando dados">
+    <list default="true" id="e35af952-0ae8-46d7-9da6-d8caffbb4e90" name="Changes" comment="Requisiçao DELETE">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V3__ater-table-medicos-add-column-ativo.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/a/ba0b6eb6fa1a86dcc92de364cffff34fa8017029" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/pti/api/controller/MedicoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pti/api/controller/MedicoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pti/api/medico/Medico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pti/api/medico/Medico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pti/api/repository/MedicoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pti/api/repository/MedicoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pti/api/controller/MedicoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pti/api/controller/MedicoController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pti/api/medico/Medico.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pti/api/medico/Medico.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pti/api/repository/MedicoRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pti/api/repository/MedicoRepository.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,10 +25,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="com.haulmont.jpb.JpaRepository" />
         <option value="com.haulmont.jpb.FlywayMigrationScript" />
         <option value="Record" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -82,39 +90,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/adeliocastro/projetos_cursos/api_voll_med&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;77902b979a727ebed39a4bbc7ee0a302&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "ToolWindowJPA Buddy.ShowToolbar": "false",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/adeliocastro/projetos_cursos/api-Voll-Med/src/main/resources/db/migration",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "spring.configuration.checksum": "77902b979a727ebed39a4bbc7ee0a302"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;,
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql",
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.pti.api.medico" />
       <recent name="com.pti.api.repository" />
       <recent name="com.pti.api.endereco" />
       <recent name="com.pti.api.controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/db/migration" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/db/migration" />
@@ -216,7 +228,8 @@
       <workItem from="1670354671950" duration="1027000" />
       <workItem from="1672941954509" duration="11635000" />
       <workItem from="1673004994465" duration="9859000" />
-      <workItem from="1673551735263" duration="4786000" />
+      <workItem from="1673551735263" duration="5488000" />
+      <workItem from="1673618456023" duration="3539000" />
     </task>
     <task id="LOCAL-00001" summary="add project">
       <created>1669290959938</created>
@@ -246,7 +259,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673554480417</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Requisiçao DELETE">
+      <created>1673610096478</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1673610096478</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,6 +291,7 @@
     <MESSAGE value="testando commit" />
     <MESSAGE value="implementanto requisicao put" />
     <MESSAGE value="Atualizando dados" />
-    <option name="LAST_COMMIT_MESSAGE" value="Atualizando dados" />
+    <MESSAGE value="Requisiçao DELETE" />
+    <option name="LAST_COMMIT_MESSAGE" value="Requisiçao DELETE" />
   </component>
 </project>
